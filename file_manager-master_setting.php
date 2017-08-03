@@ -47,7 +47,7 @@ $files = array_diff(scandir($dir), array('.', '..'))
             <form method="get">
 <table class="table table-striped table-bordered mb-0" >            
                               
-                    <a href="?plugin=file_manager&dir=<?=$up?>">上一层</a>
+                    <a href="?plugin=file_manager-master&dir=<?=$up?>">上一层</a>
             
                 <input type="hidden" name="plugin" value="file_manager">
                 <input type="text" name="dir" value="<?=$dir?>" class="form-control">
@@ -59,7 +59,8 @@ $files = array_diff(scandir($dir), array('.', '..'))
                 
 <thead>
  <tr>
- <th><b>#</b></th> <th><b>名称</b></th>
+ <th><b>#</b></th>
+ <th><b>名称</b></th>
  <th><b>权限</b></th>
   </tr>
 </thead>
