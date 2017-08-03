@@ -1,6 +1,7 @@
 <?php
 /*
 Plugin Name: 文件管理器
+Version: 1.0
 Description: 对于博客emlog简单的文件管理器
 Author: DOC_tr
 Author Email: CrimSoN_AL@mail.ru
